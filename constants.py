@@ -14,4 +14,4 @@ SPLIT_RATIO = 0.8
 
 BM3D_Sigma_SERI = 45
 BM3D_Sigma_ZhangLab = 35
-AdaptiveThreshold = 44
+AdaptiveThreshold = 44 
