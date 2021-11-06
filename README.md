@@ -28,7 +28,8 @@ The paper of the project is under review. Therefore, the repository has limitati
 
 
 
-Please cite this article : <b> DeepOCT: An Optimized and Pruned Deep Learning Architecture to Analyze Macular Edema on OCT images </b>
+Please cite this article :<br>
+ <b> Gokhan ALTAN, DeepOCT: An Optimized and Pruned Deep Learning Architecture to Analyze Macular Edema on OCT images (Under Review) </b>
 
      
 
