@@ -24,7 +24,7 @@ def DeepOCT():
     model.add(Dropout(0.5))
     model.add(Dense(1, activation = 'sigmoid'))
 
-    opt = tf.optimizers.Adam(lr=0.0001)
+    opt = tf.optimizers.Adam(lr=0.001)
     model.compile(loss='binary_crossentropy', optimizer=opt, metrics = ['accuracy'])
     print('DeepOCT model prepared...')
     return model
