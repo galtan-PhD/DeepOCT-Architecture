@@ -24,7 +24,7 @@ pre_process(test_images)
 
 model = DeepOCT()
 print('DeepOCT model: Training started...')
-history = model.fit(train_images, train_labels, batch_size = 50, epochs = 50, verbose = 1, validation_data=(test_images, test_labels), callbacks=[tensorboard])
+history = model.fit(train_images, train_labels, batch_size = 50, epochs = 50, verbose = 1, validation_split	=0.1, callbacks=[tensorboard])
 print('DeepOCT model: Training finished...')
 
 model.save('deepOCTmodel.h5')
