@@ -14,13 +14,13 @@ train_images = np.array([i[0] for i in train_data]).reshape(-1, CONST.IMG_SIZE, 
 train_labels = np.array([i[1] for i in train_data])
 print('Train OCT data fetched..')
 
-test_data = data[train_size:]
-test_images = np.array([i[0] for i in test_data]).reshape(-1, CONST.IMG_SIZE, CONST.IMG_SIZE, 3)
-test_labels = np.array([i[1] for i in test_data])
+val_data = data[train_size:]
+val_images = np.array([i[0] for i in val_data]).reshape(-1, CONST.IMG_SIZE, CONST.IMG_SIZE, 3)
+val_labels = np.array([i[1] for i in val_data])
 print('Test OCT data fetched..')
 
 pre_process(train_images)
-pre_process(test_images)
+pre_process(val_images)
 
 model = DeepOCT()
 print('DeepOCT model: Training started...')
