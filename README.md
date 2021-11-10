@@ -34,8 +34,8 @@ Please cite this article :<br>
   <br><br>
   
   ## DeepOCT-GradCam Visualizations for randomly selected OCT images from ZhangLab
-  
-  <img src=" http://www.gokhanaltan.com/wp-content/uploads/OCT_DME_Large.png" alt="DeepOCT-DME-Large">
+  ![DeepOCT-DME-Large](http://www.gokhanaltan.com/wp-content/uploads/OCT_DME_Large.png)
+
   
   
 
