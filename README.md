@@ -34,11 +34,11 @@ Please cite this article :<br>
   <br><br>
   
   # DeepOCT-GradCam Visualizations for randomly selected OCT images from ZhangLab
-  ## DeepOCT on localization of very severe DME
+  ## DeepOCT on localization of very severe DME with large pathologies
   ![DeepOCT-DME-Large](http://www.gokhanaltan.com/wp-content/uploads/OCT_DME_Large.png)
   ## DeepOCT on localization of nonDME
   ![DeepOCT-DME-nonDME](http://www.gokhanaltan.com/wp-content/uploads/OCT_Normal.png)
-  ## DeepOCT on localization of very severe DME
+  ## DeepOCT on localization of mild DME with small pathologies
   ![DeepOCT-DME-Small](http://www.gokhanaltan.com/wp-content/uploads/OCT_DME_Small.png)
   
   
